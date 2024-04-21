@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 7rem;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 8rem;
+    background-color: #768b8b;
+}
+/* TAMAÑO TITULOS */
+h1, h2, h4 {
+    text-align: center;
+    padding: 1%;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    height: 4rem;
+}
+/*     fin        */
+
+
+.menuPpal {      
+}
+
+.ico1 { 
+    width: 60px;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E0CBA8;
+}
+
+/* LISTA */
+ul {
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+}
+
+li {
+    padding: 0%;
+    margin: 10%;
+}
+
+.menuBurger {
+    width: 50px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #E0CBA8;
+}
+.lupaimagen {
+    width: 80px;
+    
+}
+.menuBurger:hover {
+    background-color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 2rem;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10%;
+  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15rem;
+}
+
+/* Parche */
+.linksCH:hover {
+    background-color: #88498F;
+}
+
+/* Puntos de corte */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: left;
+    }
+
+    body {
+        padding-top: 8rem;
+    }
+    header {
+        height: 5rem;
+    }        
+    
+   
+
+   
+    .menuPpal {
+        display: none;
+    }
+
+    .articulos {
+        grid-template-columns: 90%;
+        justify-content: space-around;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        height: 6rem;
+    }
+
+    .menuBurger {
+        display: none;
+    }
+
+    body {
+        padding-top: 6rem;
+    }
+
+    .articulos {
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        height: 7rem;
+    }
+
+    .menuBurger {
+        display: none;
+    }
+
+    body {
+        padding-top: 7rem;
+    }
+    
+    .articulos{
+        grid-template-columns: 50% 50%;
+        justify-content: space-around;
+    }
+}

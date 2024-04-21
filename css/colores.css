@@ -1,0 +1,29 @@
+/* Colores del sitio */
+
+.colorHeader {
+    background-color: #f3f4f7;
+    color: whitesmoke;
+}
+.colorFooter {
+    background-color: #131212;
+    color: whitesmoke;
+}
+.color2 {
+    background-color: #779FA1;
+    color: black;
+}
+
+.colorMain {
+    background-color: #E0CBA8;
+    color: black;
+}
+
+.color4 {
+    background-color: #FF6542;
+    color: whitesmoke;
+}
+
+.color5 {
+   background-color: #564154; 
+   color: white;
+}
