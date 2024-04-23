@@ -23,12 +23,10 @@ h1 {
 h2 {
     height: 4rem;
 }
-/*     fin        */
+/*     fin   titulos     */
 
 
-.menuPpal {      
-}
-
+/* el mosquito, mejor puede ser  otro logo mas copado*/
 .ico1 { 
     width: 60px;
     padding: 0px;
@@ -37,7 +35,8 @@ h2 {
     background-color: #E0CBA8;
 }
 
-/* LISTA */
+
+/* LISTA del menu principal*/
 ul {
     display: flex;
     justify-content:center;
@@ -47,6 +46,7 @@ ul {
 li {
     padding: 0%;
     margin: 10%;
+    
 }
 
 .menuBurger {
@@ -56,14 +56,16 @@ li {
     border-radius: 5px;
     background-color: #E0CBA8;
 }
-.lupaimagen {
-    width: 80px;
-    
-}
+
 .menuBurger:hover {
     background-color: whitesmoke;
 }
 
+.lupaimagen {
+    width: 80px;
+    
+}
+/* aca empieza la distribucion de los bloques en el header*/
 header {
     position: fixed;
     top: 0;
@@ -76,7 +78,7 @@ nav {
     align-items: center;
     padding: 5px;
 }
-
+/* caracteristicas de los icon de accesos a redes sociales*/
 .logo {
     width: 2rem;
     height: auto;
@@ -96,10 +98,7 @@ footer {
     height: 15rem;
 }
 
-/* Parche */
-.linksCH:hover {
-    background-color: #88498F;
-}
+
 
 /* Puntos de corte */
 
