@@ -1,0 +1,62 @@
+article {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid  #779FA1;
+    border-radius: 5px;
+}
+article:hover{
+    background-color: #779FA1 ;
+}
+section{
+    display: flex
+}
+
+.img-art1 {
+    border-radius: 5%;
+     display: flex;
+     justify-content: center;
+     width: 250px;
+     height: 150px;
+    
+
+}
+.img-artic {
+
+     border-radius: 5%;
+     display: flex;
+     justify-content: center;
+     width: 250px;
+     height: 150px;
+     float: center;
+    }
+    header {
+        margin: 1%;
+        padding: 1%;
+       
+    }
+footer{
+    background-color: black;
+    height: 80PX;
+    width: 100%;
+    color: white;
+    margin:auto;
+    text-align: center;
+}
+
+.btn-volver{
+    background-color: rgb(58, 99, 109);
+    border :10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+h1{
+    color:  #564154;
+}
+h2 {
+    color: #564154 ;
+}
+picture{
+    display:flex
+}
