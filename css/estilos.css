@@ -30,8 +30,7 @@ h2 {
 .ico1 { 
     width: 60px;
     padding: 0px;
-    border: 1px solid black;
-    border-radius: 5px;
+
     background-color: #E0CBA8;
 }
 
@@ -45,8 +44,7 @@ ul {
 
 li {
     padding: 0%;
-    margin: 10%;
-    
+    margin: 5%;  
 }
 
 .menuBurger {
@@ -91,7 +89,6 @@ footer {
     flex-direction: column;
     text-align: center;
     row-gap: 10%;
-  
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -115,8 +112,6 @@ footer {
         height: 5rem;
     }        
     
-   
-
    
     .menuPpal {
         display: none;
