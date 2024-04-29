@@ -23,7 +23,7 @@ section{
 .img-artic {
 
      border-radius: 5%;
-     display: flex;
+     display: flex; 
      justify-content: center;
      width: 250px;
      height: 150px;
