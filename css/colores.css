@@ -27,3 +27,12 @@
    background-color: #564154; 
    color: white;
 }
+
+.retorno a{
+    color:#E0CBA8;
+    font-size: larger;
+}
+
+.retorno a:hover{
+    color: #779FA1;
+}

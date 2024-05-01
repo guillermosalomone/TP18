@@ -22,3 +22,18 @@
     color: black; 
     font-weight: 600;
 }
+/* sitio - formulario de registro */
+.retorno{
+    font-size: larger;
+ }
+ 
+ fieldset{
+     font-weight: 400;
+ }
+ label{
+     font-weight: 400;
+ }
+ legend{
+     font-style: italic;
+     font-weight: bold;
+ }
