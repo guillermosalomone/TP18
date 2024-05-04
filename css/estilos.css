@@ -35,9 +35,7 @@ h2 {
 
 
 /* LISTA del menu principal*/
-.menuPpal {
-        ;
-    }
+
 ul {
     display: flex;
     justify-content:center;
@@ -164,6 +162,7 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     header {
+       position: absolute;
         height: 7rem;
     }
 
@@ -178,5 +177,11 @@ footer {
     .articulos{
         grid-template-columns: 50% 50%;
         justify-content: space-around;
+    }
+    .carousel{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        position: static;
     }
 }
