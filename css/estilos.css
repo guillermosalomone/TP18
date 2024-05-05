@@ -35,6 +35,7 @@ h2 {
 
 
 /* LISTA del menu principal*/
+
 ul {
     display: flex;
     justify-content:center;
@@ -75,6 +76,19 @@ nav {
     align-items: center;
     padding: 5px;
 }
+
+main{
+    max-height: 100vh;
+    overflow-y: auto;
+    margin-bottom: 60px;
+}
+    
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+
 /* caracteristicas de los icon de accesos a redes sociales*/
 .logo {
     width: 2rem;
@@ -163,6 +177,10 @@ footer {
     header {
        position: absolute;
         height: 7rem;
+    }
+
+    nav{
+        align-items: safe;
     }
 
     .menuBurger {
