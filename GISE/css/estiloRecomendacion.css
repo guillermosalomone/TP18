@@ -1,38 +1,66 @@
-article {
+
+h1,h2{font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:  #564154;
+}
+    
+    
+    article {
     margin: 2%;
     padding: 2%;
     border: 1px solid  #779FA1;
     border-radius: 5px;
-}
-article:hover{
-    background-color: #779FA1 ;
+
 }
 section{
-    display: flex
+    display: grid ;
+    grid-template-columns: 2fr 1fr;
+    margin:25px auto;
+    grid-gap: 50 px;
 }
+.image1{
+    background: url(../img/picadura.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 200px;
 
-.img-art1 {
-    border-radius: 5%;
-     display: flex;
-     justify-content: center;
-     width: 250px;
-     height: 150px;
-    
 
 }
-.img-artic {
+.picture-2{
+    background: url(../img/repelente.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}    
 
-     border-radius: 5%;
-     display: flex; 
-     justify-content: center;
-     width: 250px;
-     height: 150px;
-     float: center;
-    }
-    header {
-        margin: 1%;
-        padding: 1%;
-       
+.imageSintomas{
+    background: url(../img/dintomas\ dengue.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+        }
+
+     .imagePrevencion{
+            background: url(../img/unnamedPREVENCION.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 200px;
+            border-radius: 5%;
+     }
+     .image4pasos{ 
+        background: url(../img/pasos\ para\ prevencion.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+        width: 100%;
+        height: 250px;
+     
     }
 footer{
     background-color: black;
@@ -50,13 +78,19 @@ footer{
     justify-content: center;
     display: flex;
     margin: auto;
-}
-h1{
-    color:  #564154;
-}
-h2 {
-    color: #564154 ;
+
 }
 picture{
     display:flex
+}
+@media screen and (max-width:992px){
+    .section {
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
+@media screen and (max-width: 768px){
+    .section{
+    grid-template-columns: repeat(2,1fr);  
+}
 }
