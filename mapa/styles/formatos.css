@@ -1,18 +1,36 @@
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+}
 body{
-    background: rgb(133, 133, 253);
+    background: rgba(245, 223, 214, 0.637);
+    
 }
 .mapadiv{
-    width: 100%;
+    width: 90%;
     margin: auto;
+    position: absolute;
+    z-index: 6;
+}
+.fondo{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
 }
 .mapadiv path{
-    fill: rgb(42, 158, 158);
+    fill: rgb(166, 192, 192);
     stroke: black;
     stroke-width: 1px ;
 }
 
 .mapadiv :hover{
-    fill: azure;
+    fill: rgb(240, 249, 255);
     }
 
 .titu {
