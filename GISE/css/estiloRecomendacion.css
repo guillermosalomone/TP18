@@ -5,12 +5,30 @@ h1,h2{font-family: "Roboto", sans-serif;
     text-align: center;
     color:  #564154;
 }
-    
-    
-    article {
+.header{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+hr{
+    border-width: 2px 
+    }   
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.ico1 {
+  width: 100px;
+  padding: 0px;
+  margin-right: 10px
+   }
+   
+
+ article {
     margin: 2%;
     padding: 2%;
-    border: 1px solid  #779FA1;
+    border: 5px solid  #779FA1;
     border-radius: 5px;
 
 }
@@ -18,7 +36,7 @@ section{
     display: grid ;
     grid-template-columns: 2fr 1fr;
     margin:25px auto;
-    grid-gap: 50 px;
+
 }
 .image1{
     background: url(../img/picadura.jpg);
@@ -43,25 +61,20 @@ height: 200px;
     background-position: center;
     width: 100%;
     height: 200px;
-        }
+}
+.imagenPre{
+    display: block;
+    max-width: 200px;
+    align-items: center;
+    margin: auto;
+}
+.imagenPasos{
+    display: block;
+    max-width: 100%;
+    align-items: center;
+    margin: auto;
+}
 
-     .imagePrevencion{
-            background: url(../img/unnamedPREVENCION.jpg);
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 200px;
-            border-radius: 5%;
-     }
-     .image4pasos{ 
-        background: url(../img/pasos\ para\ prevencion.png);
-        background-size: cover;
-        background-position: center;
-        border-radius: 5%;
-        width: 100%;
-        height: 250px;
-     
-    }
 footer{
     background-color: black;
     height: 80PX;
@@ -84,13 +97,13 @@ picture{
     display:flex
 }
 @media screen and (max-width:992px){
-    .section {
-        grid-template-columns: repeat(2, 1fr);
+    .section-2 {
+        grid-template-columns: repeat(1, 1fr);
     
     }
 }
 @media screen and (max-width: 768px){
-    .section{
-    grid-template-columns: repeat(2,1fr);  
+    .section-2{
+    grid-template-columns: repeat(1,1fr);  
 }
 }
