@@ -1,13 +1,31 @@
 
-h2{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: larger;
-    font-style: normal;
-    text-align: center;
+.box { display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-basis: auto;
+    background-color: white;
 }
+
+
+.box :first-child{
+    margin-right: 0px;
+}
+
+.ico1{
+    width: 90px;
+    display:block;
+}
+ 
+.titulo {
+    display:block;
+    font-size: larger;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+  
 body{
-    background: rgba(245, 223, 214, 0.637);
+    background: #F3F4F8;
     
 }
 .mapadiv{
