@@ -22,11 +22,10 @@ hr{
     display: flex;
     align-items: center;
 }
-.logo1 img {
-  width: 60px;
-  padding: 0px;
-  margin-right: 10px
-}
+.ico1 {
+    width: 100px;
+    padding: 0px;
+    margin-right: 10px}
 li{
     text-align: left;
     margin-bottom: 10px;
