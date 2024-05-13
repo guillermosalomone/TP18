@@ -27,7 +27,9 @@ li{text-align: left;
     margin-bottom: 10px;
 
 }   
-
+::marker{
+    color:#779FA1;
+}
  article {
     margin: 2%;
     padding: 2%;
@@ -59,11 +61,10 @@ height: 200px;
 }    
 
 .imageSintomas{
-    background: url(../img/dintomas\ dengue.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 200px;
+    display: block;
+    max-width: 100%;
+    align-items: center;
+    margin: auto;
 }
 .imagenPre{
     display: block;
@@ -81,6 +82,19 @@ height: 200px;
     width: 2rem;
     height: auto;
 
+}
+.retorno{
+    text-align: center;
+
+}
+.retorno a{
+    color:#779FA1;    
+    font-size: larger;
+    text-align: center;
+}
+
+.retorno a:hover{
+    color:#E0CBA8; 
 }
 footer{
     background-color: black;
