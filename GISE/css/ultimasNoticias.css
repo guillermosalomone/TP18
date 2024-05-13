@@ -1,15 +1,14 @@
-.section-blog {
-    width: 100%;
-    margin: 20px auto;
-    display: grid;
-
+.logo1{
+    display: flex;
+    align-items: center;
 }
-h4{ font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+.ico1 {
+    width: 100px;
+    padding: 0px;
+    margin-right: 10px
 }
 
-.title h1 {
+h1 {
     width: 60%;
     text-align:center ;
     margin: auto;
@@ -18,6 +17,7 @@ h4{ font-family: "Roboto", sans-serif;
     font-style: normal;
     color:  #564154;
 }
+
 hr{
     border-width: 2px }
 
@@ -28,10 +28,14 @@ hr{
     grid-gap: 20px;
     margin:25px auto;
     max-width: 1000px;
+}
     
-    
+h4{ font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+    }   
 
-} 
+
 .card{
     width: 100%;
     position: relative;
@@ -69,15 +73,47 @@ background-position: center;
 width: 100%;
 height: 200px;
 }
+.image-section4{
+    background: url(../img/MosquitoInvacion.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.image-section5{
+    background: url(../img/dengue\ en\ niños.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.image-section6{
+    background: url(../img/MosquitoInvacion.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
 .post{
     background-color: #7fffd42f;
 
 }
 .post :hover{
-    transform: translateY(4px);}
-    
-   
+    transform: translateY(4px);
+}
+.retorno{
+    text-align: center;
 
+}
+.retorno a{
+    color:#779FA1;    
+    font-size: larger;
+    text-align: center;
+}
+
+.retorno a:hover{
+    color:#E0CBA8; 
+}
 .logo {
     width: 2rem;
     height: auto;
@@ -90,6 +126,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 }
+
 @media screen and (max-width:992px){
     .noticias {
         grid-template-columns: repeat(2, 1fr);
