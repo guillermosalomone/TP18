@@ -35,9 +35,7 @@ h2 {
 
 
 /* LISTA del menu principal*/
-.menuPpal {
-        ;
-    }
+
 ul {
     display: flex;
     justify-content:center;
@@ -134,8 +132,50 @@ footer {
         margin-bottom: 5px; 
     }
       
+}
+
+/* MENU BURGUER */
+
+@media (max-width: 768px) {
+    .menuPpal {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 1000;
+    }
+
+    .menuBurger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuPpal.active {
+        display: flex;
+    }
+
+    .menuBurger {
+        width: 40px; /* Ajusta el tamaño del icono */
+        height: 40px; /* Ajusta el tamaño del icono */
+    }
 
 }
+
+
+
+/* Ocultar la hamburguesa en pantallas grandes */
+@media (min-width: 769px) {
+    .menuBurger {
+        display: none;
+    }
+}
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
