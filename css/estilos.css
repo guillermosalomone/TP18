@@ -134,6 +134,10 @@ footer {
     fieldset input{
         display: block;
     }  
+
+    fieldset {
+        padding: 0;
+    }
 }
 
 /* MENU BURGUER */
