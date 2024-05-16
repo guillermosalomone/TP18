@@ -131,7 +131,9 @@ footer {
         display: block; 
         margin-bottom: 5px; 
     }
-      
+    fieldset input{
+        display: block;
+    }  
 }
 
 /* MENU BURGUER */
