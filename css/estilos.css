@@ -23,6 +23,11 @@ h1 {
 h2 {
     height: 4rem;
 }
+h5{
+    color: rgb(63, 63, 63);
+    font-size: small;    
+    text-align: center;
+}
 /*     fin   titulos     */
 
 

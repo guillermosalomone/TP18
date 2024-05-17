@@ -37,3 +37,12 @@
 .retorno a:hover{
     color: #779FA1;
 }
+.rosa {
+    color: rgb(216, 21, 174);
+}
+.azul {
+    color: rgb(87, 122, 175);
+}
+a:hover {
+    color:rgb(87, 122, 175)
+}
