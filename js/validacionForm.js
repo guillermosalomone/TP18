@@ -4,7 +4,7 @@ function validarFormulario() {
     var correo = document.getElementById("correo").value;
 
     if (nombre === "" || apellido === "" || correo === "") {
-        alert("Por favor completa todos los campos obligatorios.");
+        alert("Por favor completa todos los campos.");
         return false;
     }
     return true;

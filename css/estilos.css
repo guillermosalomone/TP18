@@ -118,10 +118,22 @@ footer {
 
     body {
         padding-top: 8rem;
+        width: 100%;
+        box-sizing: border-box;
     }
     header {
         height: 5rem;
-    }        
+        width: 100%;
+        box-sizing: border-box;
+    } 
+    main{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer{
+        width: 100%;
+        position: relative;
+    }       
     
    
     .menuPpal {
