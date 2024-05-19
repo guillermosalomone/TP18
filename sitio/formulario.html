@@ -29,25 +29,24 @@
       
     </header>
     <main class="colorMain">
-     
         <section class="registro">
             <h2>Registrate y para obtener info al instante</h2>
-            <form action="respuestaForm.html">
+            <form action="respuestaForm.html" id="formularioRegistro" onsubmit="return validarFormulario()">
                 <fieldset class="datosRegis">
                     <legend>Datos Personales</legend>
                     <label for="nombre">Nombre:</label>
-                    <input name="nombre" type="text" id="nombre">
+                    <input name="nombre" type="text" id="nombre" required>
                     <label for="apellido">Apellido:</label>
-                    <input name="apellido" type="text" id="apellido">
+                    <input name="apellido" type="text" id="apellido" required>
                     <label for="correo">Correo Electrónico:</label>
-                    <input name="correo" type="text" id="correo">
+                    <input name="correo" type="email" id="correo" required>
                 </fieldset>
                 <fieldset>
-                    <legend>A que te subscribís?</legend>
-                    <input type="checkbox" >Ultimas Noticias
-                    <input type="checkbox" >Zonas Peligrosas
-                    <input type="checkbox" >Recomendaciones
-                    <input type="checkbox" >Todo
+                    <legend>A qué te subscribís?</legend>
+                    <input type="checkbox" name="noticias">Últimas Noticias
+                    <input type="checkbox" name="peligrosas">Zonas Peligrosas
+                    <input type="checkbox" name="recomendaciones">Recomendaciones
+                    <input type="checkbox" name="todo">Todo
                 </fieldset>
                 <fieldset>
                     <legend>Acciones</legend>
@@ -56,7 +55,6 @@
                 </fieldset>
             </form>
         </section>
-      
     </main>
 
     <footer class="colorFooter">
