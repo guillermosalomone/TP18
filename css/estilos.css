@@ -191,18 +191,10 @@ footer {
 }
 
 
-/* Ocultar la hamburguesa en pantallas grandes */
-@media (min-width: 769px) {
-    .menuBurger {
-        display: none;
-    }
-}
-
-
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     header {
         height: 6rem;
     }
