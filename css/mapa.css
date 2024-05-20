@@ -66,16 +66,16 @@ li{text-align: left;
 }
 
 
-.imagenMapa1{
+/* .imagenMapa1{
     object-fit: cover;
     width: 100%;
-}
-/* .imagenMapa1{
+} */
+.imagenMapa1{
     display: block;
     max-width: 90%;
     align-items: center;
     margin: auto;
-} */
+}
 .logo2 {
     width: 2rem;
     height: auto;
