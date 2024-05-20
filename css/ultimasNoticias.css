@@ -79,6 +79,9 @@ a.button {
     width: 2rem;
     height: auto;
 }
+a :hover{
+    transform: translateY(4px);
+}
     
 footer{
 background-color: black;
@@ -91,11 +94,15 @@ text-align: center;
 @media screen and (max-width:992px){
     .noticias {
         grid-template-columns: repeat(2, 1fr);
-    
     }
-}
+    h1{
+        font-size: xx-large;
+    }  
+ }
+
 @media screen and (max-width: 768px){
     .noticias{
+    padding: 30px;  
     grid-template-columns: repeat(1,1fr);  
 }
 }
