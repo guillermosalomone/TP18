@@ -13,7 +13,9 @@ h1,h2{font-family: "Roboto", sans-serif;
 hr{
     border-width: 2px 
     }   
-
+a :hover{
+        transform: translateY(4px);
+}
 .logo{
     display: flex;
     align-items: center;
@@ -49,14 +51,18 @@ li{text-align: left;
     width: 100%;
     height: 200px;
 } 
-
 .imagenArt1{
+    object-fit: cover;
+    width: 100%;
+}
+
+.imagenArt2{
     display: block;
     max-width: 100%;
     align-items: center;
     margin: auto;
 }
-.imagenArt2{
+.imagenArt3{
     display: block;
     max-width: 200px;
     align-items: center;
@@ -89,29 +95,31 @@ footer{
     text-align: center;
     
 }
-.video-container {
-    position: relative;
-
+.rojo{
+    color: rgb(236, 24, 24);
 }
 
-.video-container video {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
 .compartir{
     text-align: center;
 }
 @media screen and (max-width:992px){
     .grid-container{
         grid-template-columns: repeat(1, 1fr);
-    
+     }
+    h1{
+       font-size:  x-large ;}
     }
-}
+
 @media screen and (max-width: 768px){
     .grid-container{
     grid-template-columns: repeat(1,1fr);  
 }
+h1{
+    font-size:  x-large ;
+    }
+    .ico1{
+        width: 70px;
+       
+    }
 }
