@@ -11,5 +11,5 @@ Sitio desarrollado para la primera parte del curso «Python Fullstack» del prog
 ## Acerca del proyecto
 Desarrollo símil plataforma informativa dedicada a combatir la enfermedad dengue, promoción de eventos relacionados, con acceso a contenido exclusivo para usuarios registrados.
 
-## [Ver despliegue]([(https://guillermosalomone.github.io/TP18/index.html)]
+## [Ver despliegue](https://guillermosalomone.github.io/TP18/index.html)
 Realizado con GitHub Pages
