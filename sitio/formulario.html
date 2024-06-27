@@ -40,9 +40,36 @@
                     <input name="apellido" type="text" id="apellido" required>
                     <label for="correo">Correo Electrónico:</label>
                     <input name="correo" type="email" id="correo" required>
+                    <label for="WhatsApp">WhatsApp :</label>
+                    <input name="whatsapp" type="string" id="whatsapp" required>
+                        
                 </fieldset>
                 <fieldset>
-                    <legend>A qué te subscribís?</legend>
+                    <legend>Encuesta</legend>    
+                    <label for="genero">Género:</label>  
+                    <select id="Genero" name=" genero" requiered>
+                        <option value=0>Femenino</option>
+                        <option value=1>Masculino</option>
+                        <option value=1>Otro</option>
+                    </select> 
+
+                    <label for="denguePositivo">Tuviste dengue?</label> 
+                    <select id="denguePositivo" name ="denguePositivo">
+                        <option value=0>Si</option>
+                        <option value=1>no</option>
+                    </select>      
+
+                    <label for="Sintomas">Sintomas?</label> 
+                        <input type="checkbox" name="fiebre" value="fiebre" >fiebre
+                        <input type="checkbox" name="Sarpullido" value="sarpullido">Sarpullido
+                        <input type="checkbox" name="Dolor de cabeza" value="dolorDeCabeza" > Dolor de cabeza
+                        <input type="checkbox" name=" Nauseas y vomitos"   value="nauseasYVomitos">nauseas y vomitos
+                        <input type="checkbox" name="cansancio intenso" value="cansancioIntenso"  >Cansancio intenso
+                      
+                </fieldset>
+                <fieldset>
+                    <legend>Suscripcion</legend>
+                    <label for="suscripcion">A qué te suscribís?</label>   
                     <input type="checkbox" name="noticias">Últimas Noticias
                     <input type="checkbox" name="peligrosas">Zonas Peligrosas
                     <input type="checkbox" name="recomendaciones">Recomendaciones
