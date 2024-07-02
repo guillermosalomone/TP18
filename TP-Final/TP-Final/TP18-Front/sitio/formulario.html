@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/fuentes.css">
+    <link rel="stylesheet" href="../css/colores.css">
+    <link rel="icon" href="../img/iconoPagina.jpeg" type="image/x-icon">
+    <title>Registrate</title>
+</head>
+<body>
+    <header class="colorHeader">
+        <nav>
+
+            <a  href="../index.html"><img class="ico1" src="../img/chau_dengue.jpg" alt="icono"></a>
+            <div>
+                <ul class="menuPpal">
+                    <li><a class="itemPpal" href="../sitio/ultimasNoticias.html">Ultimas Noticias</a></li>
+                    <li><a class="itemPpal" href="../mapa/mapa.html">Zonas Peligrosas</a></li>
+                    <li><a class="itemPpal" href="../sitio/recomendaciones.html">Recomendaciones</a></li>
+                    <li><a class="itemPpal" href="../sitio/formulario.html">Registrate</a></li>
+                </ul>
+            </div>
+            <div>
+                <img class="menuBurger" src="../icon/bars-solid.svg" alt="Ménu para dispositivos móviles" title="Menú">
+            </div>
+        </nav>
+      
+    </header>
+    <main class="colorMain">
+        <section class="registro">
+            <h2>Registrate para obtener info al instante!</h2>
+            <form action="" id="formularioRegistro" onsubmit="return validarFormulario()">
+                <fieldset class="datosRegis">
+                    <legend>Datos Personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input name="nombre" type="text" id="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input name="apellido" type="text" id="apellido" required>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input name="correo" type="email" id="correo" required>
+                    <label for="WhatsApp">WhatsApp :</label>
+                    <input name="whatsapp" type="" id="whatsapp" required>
+                        
+                </fieldset>
+              
+          
+                <fieldset>
+                    <legend>Acciones</legend>
+                    <input type="submit" value="Enviar" onclick="return crearSubs()">
+                    <input type="reset" value="Borrar Datos">
+                </fieldset>
+            </form>
+        </section>
+
+        
+
+    </main>
+
+    <footer class="colorFooter">
+        <div class="retorno">
+            <p><a href="../index.html">Volver a la página principal</a></p>
+        </div>
+        <p></p>
+        <p>Seguinos en nuestras redes sociales</p>
+        <p>
+            <a class="linksCH" href="#" target="_blank"><img src="../icon/instagram.png" alt="Instagram" class="logo"></a>
+            <a class="linksCH" href="#" target="_blank"><img src="../icon/facebook.png" alt="Facebook" class="logo"></a>
+            <a class="linksCH" href="#" target="_blank"><img src="../icon/linkedin.png" alt="LinkedIn" class="logo"></a>
+            <a class="linksCH" href="#" target="_blank"><img src="../icon/twitter.png" alt="Twitter" class="logo"></a>
+            <a class="linksCH" href="#" target="_blank"><img src="../icon/youtube.png" alt="Youtube" class="logo"></a>
+            <a class="linksCH" href="#" target="_blank"><img src="../icon/whatsapp.png" alt="WhatsApp" class="logo"></a>
+            
+        <p>Sitio en desarrollo -Grupo 18- 2024</p>
+        <p>Preguntas Frecuentes - Política de Privacidad - Mapa del Sitio</p>
+    </footer>
+    <script src="../js/menuBurguer.js"></script>
+    <script src="../js/validarForm.js"></script>
+    <script src="../js/datosSubs.js"></script>
+    <script src="../js/crude.js"></script>
+
+</body>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+
+    <ul>
+        {% for s in subs %}
+        <li>{{ s.nombre }}, {{ s.apellido }}, {{ s.correo }} - {{ s.whatsapp}}</li>
+        {% endfor%}
+    </ul>
+
+{% endblock contenido %}
+
+

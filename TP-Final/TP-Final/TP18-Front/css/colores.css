@@ -1,0 +1,48 @@
+/* Colores del sitio */
+
+.colorHeader {
+    background-color: #f3f4f7;
+    color: whitesmoke;
+}
+.colorFooter {
+    background-color: #131212;
+    color: whitesmoke;
+}
+.color2 {
+    background-color: #779FA1;
+    color: black;
+}
+
+.colorMain {
+    background-color: #e0d5c2;
+    color: black;
+}
+
+.color4 {
+    background-color: #FF6542;
+    color: whitesmoke;
+}
+
+.color5 {
+   background-color: #564154; 
+   color: white;
+}
+
+
+.retorno a{
+    color:#E0CBA8;
+    font-size: larger;
+}
+
+.retorno a:hover{
+    color: #779FA1;
+}
+.rosa {
+    color: rgb(216, 21, 174);
+}
+.azul {
+    color: rgb(87, 122, 175);
+}
+a:hover {
+    color:rgb(87, 122, 175)
+}

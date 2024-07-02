@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 1rem;
+    padding-top: 7rem;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 8rem;
+    background-color: #768b8b;
+}
+/* TAMAÑO TITULOS */
+h1, h2, h4 {
+    text-align: center;
+    padding: 1%;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    height: 4rem;
+}
+h5{
+    color: rgb(63, 63, 63);
+    font-size: small;    
+    text-align: center;
+}
+/*     fin   titulos     */
+
+
+/* el mosquito, mejor puede ser  otro logo mas copado*/
+.ico1 { 
+    width: 90px;
+    padding: 0px;
+    
+}
+a :hover{
+    transform: translateY(4px);
+}
+
+
+
+/* LISTA del menu principal*/
+
+ul {
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+}
+
+li {
+    padding: 0%;
+    margin: 5%;  
+}
+
+.menuBurger {
+    width: 50px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #E0CBA8;
+}
+
+.menuBurger:hover {
+    background-color: whitesmoke;
+}
+
+/* aca empieza la distribucion de los bloques en el header*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    height: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;
+}
+/* caracteristicas de los icon de accesos a redes sociales*/
+.logo {
+    width: 2rem;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 0
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 12rem;
+}
+/*Estilo Formulario */
+
+.registro{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+/* Puntos de corte */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    body {
+        padding-top: 8rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    header {
+        height: 5rem;
+        width: 100%;
+        box-sizing: border-box;
+    } 
+    main{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer{
+        width: 100%;
+        position: relative;
+    }       
+    
+   
+    .menuPpal {
+        display: none;
+    }
+
+    .articulos {
+        grid-template-columns: 90%;
+        justify-content: space-around;
+    }
+    fieldset label {
+        display: block; 
+        margin-bottom: 5px; 
+    }
+    fieldset input{
+        display: block;
+    }  
+
+    fieldset {
+        padding: 0;
+    }
+}
+
+/* MENU BURGUER */
+
+@media (max-width: 768px) {
+
+   .menuPpal {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 1000;
+    }
+    .menuBurger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuPpal.active {
+        display: flex;
+    }
+
+    .menuBurger {
+        width: 40px; /* Ajusta el tamaño del icono */
+        height: 40px; /* Ajusta el tamaño del icono */
+    }
+    .carousel{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 10%;}
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header {
+        height: 6rem;
+    }
+
+    .menuBurger {
+        display: none;
+    }
+
+    body {
+        padding-top: 6rem;
+    }
+
+    .articulos {
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+    }
+    fieldset label {
+        display: block; 
+        margin-bottom: 5px; 
+    }
+    .carousel{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        height: 7rem;
+    }
+
+    .menuBurger {
+        display: none;
+    }
+
+    body {
+        padding-top: 7rem;
+    }
+    
+    .articulos{
+        grid-template-columns: 50% 50%;
+        justify-content: space-around;
+    }
+
+    .carousel{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10%;
+    }
+    .registro{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+    <title>Aplicación Back</title>
+</head>
+<body>
+    <header>
+        <h1>Proyecto back: Acceso a BBDD</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Contenido de la BBDD</h2>
+            {% block contenido %}
+            <!-- Acá los datos -->
+             
+             {% endblock contenido %}
+        </section>
+    </main>
+    <footer>
+        <p>grupo 18</p>
+        <p>Comision 24265</p>
+    </footer> 
+    
+</body>
+</html>
